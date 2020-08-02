@@ -56,3 +56,6 @@ cdk.out   node_modules    README.md
 ```
 
 As you can see, these don't really follow established conventions. What is the bin folder supposed to contain? Why is there no `src` folder? ...
+
+### Working directory requirements
+`cdk synth` requires the working directory to be the one where `cdk.json` is located.
