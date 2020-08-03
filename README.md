@@ -61,3 +61,9 @@ As you can see, these don't really follow established conventions. What is the b
 
 ### Working directory requirements
 `cdk synth` requires the working directory to be the one where `cdk.json` is located.
+
+### npm test can't be executed without a previous npm run build
+Otherwise it results in the error:
+```
+ENOENT: no such file or directory, stat '/home/.../dist'
+```
