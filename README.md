@@ -76,3 +76,6 @@ It may be interesting to take the same route that create-react-app took and hide
 
 ### Interactive set-up
 Have an interactive set-up where we directly ask the user what he wants to use or other questions.
+
+### Bugs
+- process.env.CDK_DEFAULT_ACCOUNT is undefined on jest's environment
