@@ -67,3 +67,12 @@ Otherwise it results in the error:
 ```
 ENOENT: no such file or directory, stat '/home/.../dist'
 ```
+
+### Useful sample code
+It should include some very simple sample code to get started, something that for example uses the parcel-compiling lambda artifact.
+
+### Hide mostly unchanged files
+It may be interesting to take the same route that create-react-app took and hide all non-necessary files (which are very rarely changed by the user), and allow the user to expose them later through an `eject`
+
+### Interactive set-up
+Have an interactive set-up where we directly ask the user what he wants to use or other questions.
